@@ -1,3 +1,25 @@
+=======================================================================================================================================================
+Study Update
+=======================================================================================================================================================
+
+Note: Unfortunately, there has been a change to the way Google handles the Google maps API that make it a bit less developer friendly.  
+      While Google maps is certainly one of the best maps on the market, You now need an official API key as well as a link to a working 
+      credit card to for the API key to work properly. It seems as though there is a certain amount of risk involved with this API, so only 
+      basic functionality is covered in this study.  However, there are a few free alternatives that should be investigated, including: 
+
+        Leaflet: https://leafletjs.com/
+        Modest maps: http://modestmaps.com/
+        Polymaps: http://polymaps.org/
+        Openlayers: https://openlayers.org/
+
+
+    More on Goofle maps API changes: https://www.govtech.com/biz/Google-Maps-Restricts-its-API-Government-Collectively-Shrugs.html
+
+ =======================================================================================================================================================
+
+
+
+
 Process Notes
 =========================
 NOTE: The following process notes show how to work with the Google web API.  If you want to know more about 
@@ -16,3 +38,28 @@ STEP 1: Go to the Google Developers website for developer keys
 ================================================================
 Go to the google cloud platform console and from the navigation menu click on "Credentials" and click on 
 "create credentials > API key" which will then create an api key string.
+
+STEP 2: Go to the APIs library and find the "Maps javaScript API" so that we can start with our map first
+=========================================================================================================
+Note: when you want to add other features to your map, you'll simply look up the something like "geocoding API"
+in the library to add that feature.
+
+STEP 3: In your index.html file, paste your google map script with your api key
+===============================================================================
+* Note, the callback at the end will run your initialize map function.
+
+    <script async defer 
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB6r721092L-wAzt1dvNzpNYGw7DYliTWc&callback=initMap">
+    </script>
+
+STEP 4: In your index.js file, insert your initialize map function
+==================================================================
+
+    function initMap() {
+    var city = {lat: -25.344, lng: 131.036};                                   
+    var map = new google.maps.Map(
+        document.getElementById('map'), {zoom: 4, center: city});               
+    var marker = new google.maps.Marker({position: city, map: map});            
+    }
+
+
