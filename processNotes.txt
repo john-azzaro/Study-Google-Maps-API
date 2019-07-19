@@ -1,0 +1,18 @@
+Process Notes
+=========================
+NOTE: The following process notes show how to work with the Google web API.  If you want to know more about 
+the fundamental parts of API's, please see the JavaScript_Recipes Repository (JavaScript Outlines > ApiAjaxJson) 
+as well as my "Study API" whichwalks you through the basics of a AJAX request and application architecture using 
+the dogceo api.
+
+Objective
+==========================
+For this google maps study, the primary goal is to embed a map on our page as well as some additional features 
+available to you as a developer, like directions, markers, search nearby locations, info windows, etc.
+
+
+
+STEP 1: Go to the Google Developers website for developer keys
+================================================================
+Go to the google cloud platform console and from the navigation menu click on "Credentials" and click on 
+"create credentials > API key" which will then create an api key string.
