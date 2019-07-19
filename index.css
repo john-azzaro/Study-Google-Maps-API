@@ -1,0 +1,4 @@
+
+*, *::before, *::after {                                                                                 /* For default values:*/
+    box-sizing: border-box;                                                                                  /* Includes padding and border in elements total width an d height */                                                                 
+}
