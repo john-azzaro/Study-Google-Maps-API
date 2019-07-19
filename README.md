@@ -1,8 +1,7 @@
 # Google Maps API Study
-*Note: Due to changes with Googles API requirements, example may show at reduced functionality*
 See it Live: https://john-azzaro.github.io/Study-Google-Maps-API/
 
-
+*Note: Due to changes with Googles API requirements, example may show at reduced functionality*
 
 <br>
 
