@@ -1,6 +1,8 @@
 # Google Maps API Study
 See it Live: https://john-azzaro.github.io/Study-Google-Maps-API/
 
+*Note: Due to changes with Googles API requirements, example may show at reduced functionality*
+
 <br>
 
 ## What is Google Maps API Study?
