@@ -18,8 +18,6 @@ Note: Unfortunately, there has been a change to the way Google handles the Googl
  =======================================================================================================================================================
 
 
-
-
 Process Notes
 =========================
 NOTE: The following process notes show how to work with the Google web API.  If you want to know more about 
