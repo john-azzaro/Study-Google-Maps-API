@@ -1,8 +1,8 @@
 'use strict';
 
-function initMap() {
-  var city = {lat: -25.344, lng: 131.036};                                   // Location stored as a variable
-  var map = new google.maps.Map(
-      document.getElementById('map'), {zoom: 4, center: city});               // The map, centered on the city of your choice at the given coordinates
-  var marker = new google.maps.Marker({position: city, map: map});            // position of marker
+function initMap() {                                                          // From callback in API endpoint query string...
+  var city = {lat: -25.344, lng: 131.036};                                    // Location stored as a variable so we know what city to look for...
+  var map = new google.maps.Map(                                              // new google maps object...
+      document.getElementById('map'), {zoom: 4, center: city});               // where DOM selects the map div, centered on the city of your choice at the given coordinates...
+  var marker = new google.maps.Marker({position: city, map: map});            // and position of the marker on your map.
 }
