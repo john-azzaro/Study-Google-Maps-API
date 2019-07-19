@@ -3,9 +3,10 @@ Study Update
 =======================================================================================================================================================
 
 Note: Unfortunately, there has been a change to the way Google handles the Google maps API that make it a bit less developer friendly.  
-      While Google maps is certainly one of the best maps on the market, You now need an official API key as well as a link to a working 
-      credit card to for the API key to work properly. It seems as though there is a certain amount of risk involved with this API, so only 
-      basic functionality is covered in this study.  However, there are a few free alternatives that should be investigated, including: 
+      While Google maps is certainly one of the best maps on the market, you now need both an official API key as well as a link to a working 
+      credit card for the API key to work properly, otherwise you get reduced functionality. That being the case, only basic functionality is 
+      covered in this study for now, but I'll cover more advanced features at a later date.  That being said, there are a few free alternatives 
+      that should be investigated, including: 
 
         Leaflet: https://leafletjs.com/
         Modest maps: http://modestmaps.com/
@@ -13,7 +14,7 @@ Note: Unfortunately, there has been a change to the way Google handles the Googl
         Openlayers: https://openlayers.org/
 
 
-    More on Goofle maps API changes: https://www.govtech.com/biz/Google-Maps-Restricts-its-API-Government-Collectively-Shrugs.html
+    More on Google maps API changes: https://www.govtech.com/biz/Google-Maps-Restricts-its-API-Government-Collectively-Shrugs.html
 
  =======================================================================================================================================================
 
@@ -54,10 +55,10 @@ STEP 4: In your index.js file, insert your initialize map function
 ==================================================================
 
     function initMap() {
-    var city = {lat: -25.344, lng: 131.036};                                   
-    var map = new google.maps.Map(
-        document.getElementById('map'), {zoom: 4, center: city});               
-    var marker = new google.maps.Marker({position: city, map: map});            
+        var city = {lat: -25.344, lng: 131.036};                                   
+        var map = new google.maps.Map(
+            document.getElementById('map'), {zoom: 4, center: city});               
+        var marker = new google.maps.Marker({position: city, map: map});            
     }
 
 
