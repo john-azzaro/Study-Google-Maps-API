@@ -1,12 +1,12 @@
 # Google Maps API Study
 See it Live: https://john-azzaro.github.io/Study-Google-Maps-API/
 
-*Note: Due to changes with Googles API requirements, example may show at reduced functionality*
 
 <br>
 
 ## What is Google Maps API Study?
-"Google Maps API Study" is an exploration of Google maps and associated functionalities, suck as markers, etc. However, it should be noted that although google maps is one of the best map apps on the market, there has been a change to the way google maps handles the API making it a little less developer friendly (e.g. API key per project and linked credit card). Since this is a short and concise study only basic funcitonality if covered but more features will be added in the future.
+"Google Maps API Study" is an exploration of Google maps and associated functionalities, such as markers, etc.  Please note that the current reduced functionality of Google maps in this study is due to a recent change in how google handles the google maps api, in particular the limited use without linked credit card, etc.).  Although the current study is short and concise, more features will be added in the future.
+
 
 <br>
 
