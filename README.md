@@ -19,20 +19,20 @@ Here are a few questions examined in this study:
 
 <dl>
 
-### It isnt free anymore...
+### There are a LOT of ways to customize the Google Maps API.
 -----------
 <dd>
-
+This study goes over a few of the special customization, like creating a location marker, etc.  But there are a ton of other things you can do, such as custimizing the search filters, rank locations by distance, popularity, etc. Filters are particularly interesting, as you can use type filters in addition to yor location search for things like: gas_station, hospital, spa, car_rental, museum, etc.
 
 </dd>
 </dl>
 
 <dl>
 
-### 
+### It isnt free anymore...
 -----------
 <dd>
-
+As of June 11, 2018 the Google Maps API is no longer free, at least as far as basic development goes.  Valid API keys are needed which require credit card information, so that means the API is no longer keyless.  In fact, some developers reported price increases of up to 1400% due to the change in pricing strucure.
 
 </dd>
 </dl>
