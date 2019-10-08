@@ -41,7 +41,7 @@ As of June 11, 2018 the Google Maps API is no longer free, at least as far as ba
 
 <dl>
 
-### There are alternatives Map API's.
+### There are alternative Map API's.
 -----------
 <dd>
 
