@@ -1,5 +1,6 @@
 # Google Maps API Study
 See it Live: https://john-azzaro.github.io/Study-Google-Maps-API/
+> UPDATE: You might experience an error when loading the prototype page above. Note that although the prototype works, the billing to make it work does not (see takeaways section for more details).
 
 <br>
 
