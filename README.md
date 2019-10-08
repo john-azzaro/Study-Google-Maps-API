@@ -8,10 +8,35 @@ See it Live: https://john-azzaro.github.io/Study-Google-Maps-API/
 
 Here are a few questions examined in this study:
 
-* [Screenshots](#Screenshots)
+* [What are the key takeaways from the Social Widgets Study?](#What-are-the-key-takeaways-from-the-Social-Widgets-Study)
 * [Does the Google Maps API Study feature commentary?](#Does-the-Google-Maps-API-Study-feature-commentary)
 * [What are the key features of the Google Maps API Study?](#What-are-the-key-features-of-the-Google-Maps-API-Study)
 * [Screenshots](#Screenshots)
+
+<br>
+
+## What are the key takeaways from the Social Widgets Study?
+
+<dl>
+
+### It isnt free anymore...
+-----------
+<dd>
+
+
+</dd>
+</dl>
+
+<dl>
+
+### 
+-----------
+<dd>
+
+
+</dd>
+</dl>
+
 
 <br>
 
