@@ -39,6 +39,17 @@ As of June 11, 2018 the Google Maps API is no longer free, at least as far as ba
 </dd>
 </dl>
 
+<dl>
+
+### There are a few alternative to Google Maps... but not nearly as good.
+-----------
+<dd>
+
+There are a few alternatives to Google Maps.  For example, **Leaflet** seems like a viable alternative as its an open-source JavaScript library, mobile-friendly, and interactive as well.  The documentation seems very good, its realtively simple, and there are a few plugins available as well.
+
+</dd>
+</dl>
+
 
 <br>
 
