@@ -5,7 +5,7 @@ See it Live: https://john-azzaro.github.io/Study-Google-Maps-API/
 <br>
 
 ## What is Google Maps API Study?
-"Google Maps API Study" is an exploration of Google maps and associated functionalities, such as markers, etc.  Please note that the current reduced functionality of Google maps in this study is due to a recent change in how google handles the google maps api, in particular the limited use without linked credit card, etc.).  Although the current study is short and concise, more features will be added in the future.
+"Google Maps API Study" is an exploration of Google maps and associated functionalities, such as implementing location markers, etc.  Please note that the current prototype has reduced functionality due to a recent change in how google handles the google maps api, in particular the limited use without linked credit card, etc.).  
 
 Here are a few questions examined in this study:
 
